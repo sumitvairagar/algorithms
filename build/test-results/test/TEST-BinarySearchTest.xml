@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BinarySearchTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-12-01T05:36:34" hostname="MLINPUAN1502-0029.local" time="0.025">
+  <properties/>
+  <testcase name="should return -1 if list has zero element()" classname="BinarySearchTest" time="0.012"/>
+  <testcase name="should search the number in the list()" classname="BinarySearchTest" time="0.009"/>
+  <testcase name="should search the number in the bigger list()" classname="BinarySearchTest" time="0.001"/>
+  <testcase name="should return index if list has only one element()" classname="BinarySearchTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

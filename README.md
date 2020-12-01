@@ -1,0 +1,2 @@
+#Algorithms
+- Binary Search - Done
