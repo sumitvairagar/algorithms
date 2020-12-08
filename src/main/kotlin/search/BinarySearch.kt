@@ -1,10 +1,8 @@
-import java.util.Arrays.binarySearch
-
+package search
 
 class BinarySearch {
     fun binarySearch(sorted: List<Int>, i: Int): Int? {
         if (sorted.isEmpty()) return -1
-
 
         var low = 0
         var high = sorted.size - 1
