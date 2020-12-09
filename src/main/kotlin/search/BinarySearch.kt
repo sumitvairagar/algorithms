@@ -1,6 +1,7 @@
 package search
 
 class BinarySearch {
+
     fun binarySearch(sorted: List<Int>, i: Int): Int? {
         if (sorted.isEmpty()) return -1
 
@@ -8,7 +9,7 @@ class BinarySearch {
         var high = sorted.size - 1
 
         while (low <= high){
-            var mid = (low + high) / 2
+            val mid = (low + high) / 2
             if(sorted[mid] > i){
                 high = mid -1
             }
