@@ -10,3 +10,4 @@
 #24 Part Algorithm lectures
 - Union Find
   - Quick Find - Done
+  - Quick Union - Done
