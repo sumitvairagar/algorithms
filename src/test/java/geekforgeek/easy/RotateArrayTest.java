@@ -15,9 +15,12 @@ class RotateArrayTest {
     }
 
     @Test
-    public void rotateArrayWith7ElementsBy2(){
+    public void rotateArrayWith7ElementsBy3(){
         RotateArray rotateArray = new RotateArray();
         int[] arr = new int[] { 1, 2, 3, 4, 5, 6, 7};
-        Assertions.assertArrayEquals(new int[] {6, 7, 1, 2, 3, 4, 5}, rotateArray.rotate(arr, 2));
+        int[] expected = new int[] {5, 6, 7, 1, 2, 3, 4};
+        int[] result = rotateArray.rotate(arr, 3);
+        Assertions.assertArrayEquals(expected, result);
+        Assertions.assertEquals(expected.length, result.length);
     }
 }

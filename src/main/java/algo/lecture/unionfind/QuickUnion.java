@@ -1,11 +1,11 @@
-package algo.lecture;
+package algo.lecture.unionfind;
 
 import java.util.Arrays;
 
-public class QuickFind {
+public class QuickUnion {
     private int[] d;
 
-    public QuickFind(int n) {
+    public QuickUnion(int n) {
         d = new int[n];
         for(int i = 0; i < n ; i++){
             d[i] = i;
@@ -13,15 +13,18 @@ public class QuickFind {
     }
 
     public boolean isConnected(int p, int q){
-        return d[p] == d[q];
+        return parent(p) == parent(q);
     }
 
     public void union(int p, int q){
-        int pid = d[p];
-        int qid = d[q];
-        for(int i=0; i < d.length; i++){
-            if(qid == d[i]) d[i] = pid;
-        }
+        int pParent = parent(p);
+        int qParent = parent(q);
+        d[qParent] = pParent;
+    }
+
+    public int parent(int child){
+        if(d[child] == child) return child;
+        return parent(d[child]);
     }
 
     public void printArray(){
@@ -29,7 +32,7 @@ public class QuickFind {
     }
 
     public static void main(String[] args) {
-        QuickFind qf = new QuickFind(10);
+        QuickUnion qf = new QuickUnion(10);
         qf.printArray();
     }
 }
