@@ -1,4 +1,4 @@
-package geekforgeek.easy;
+package geekforgeek.easy.array;
 
 public class FirstNonRepeatingInteger {
     public static void main(String[] args) {

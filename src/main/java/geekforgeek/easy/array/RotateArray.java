@@ -1,4 +1,4 @@
-package geekforgeek.easy;
+package geekforgeek.easy.array;
 
 public class RotateArray {
     public int[] rotate(int[] nums, int k) {

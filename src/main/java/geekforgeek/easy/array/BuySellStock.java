@@ -1,4 +1,4 @@
-package geekforgeek.easy;
+package geekforgeek.easy.array;
 
 public class BuySellStock {
     // [1, 2, 3, 4, 5]
