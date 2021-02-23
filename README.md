@@ -8,6 +8,8 @@
         - Buy and Sell Stock - Done
         - Rotate Array to right - Done
         - Contains Duplicate in Array - Done
+    - String
+        - Reverse a String - Done
 #24 Part Algorithm lecture
 - Union Find
   - Quick Find - Done
