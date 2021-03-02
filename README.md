@@ -2,15 +2,17 @@
 - Binary Search - Done
 
 #Leetcode
-  - Easy
-    - Array
+  - ##Easy
+    - ###Array
         - First Non Repeating Integer - Done
         - Buy and Sell Stock - Done
         - Rotate Array to right - Done
         - Contains Duplicate in Array - Done
-    - String
+    - ###String
         - Reverse a String - Done
 #24 Part Algorithm lecture
-- Union Find
+- ###Union Find
   - Quick Find - Done
   - Quick Union - Done
+- ###Stack
+  - String Stack
