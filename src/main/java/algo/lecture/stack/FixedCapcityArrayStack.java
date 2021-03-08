@@ -18,7 +18,7 @@ public class FixedCapcityArrayStack {
 
     public String pop(){
         String value = stack[pointer - 1];
-        stack[pointer--] = null;
+        stack[--pointer] = null;
         return value;
     }
 }
