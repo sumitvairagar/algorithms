@@ -15,4 +15,5 @@
   - Quick Find - Done
   - Quick Union - Done
 - ###Stack
-  - String Stack
+  - Linked List based String Stack - Done
+  - Fixed Capacity Array Stack- Done  

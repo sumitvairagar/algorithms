@@ -1,6 +1,6 @@
 package algo.lecture.stack;
 
-public class StringStack {
+public class LinkedListBasedStringStack {
 
     private Node first = null;
 

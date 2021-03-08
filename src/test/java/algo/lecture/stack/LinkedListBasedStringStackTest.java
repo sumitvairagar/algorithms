@@ -3,11 +3,11 @@ package algo.lecture.stack;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class StringStackTest {
+public class LinkedListBasedStringStackTest {
 
     @Test
     void checkIfStackIsEmpty(){
-        StringStack stack = new StringStack();
+        LinkedListBasedStringStack stack = new LinkedListBasedStringStack();
         Assertions.assertEquals(true, stack.isEmpty());
         stack.push("First Value");
         Assertions.assertEquals(false, stack.isEmpty());
@@ -15,7 +15,7 @@ public class StringStackTest {
 
     @Test
     void testPopping(){
-        StringStack stack = new StringStack();
+        LinkedListBasedStringStack stack = new LinkedListBasedStringStack();
         stack.push("First");
         stack.push("Second");
         stack.push("Third");
