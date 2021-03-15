@@ -16,4 +16,5 @@
   - Quick Union - Done
 - ###Stack
   - Linked List based String Stack - Done
-  - Fixed Capacity Array Stack- Done  
+  - Fixed Capacity Array Stack - Done  
+  - Resizing Capacity Array Stack - Done  
