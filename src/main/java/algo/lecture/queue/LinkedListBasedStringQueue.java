@@ -1,7 +1,6 @@
 package algo.lecture.queue;
 
-public class LinkedListBasedStringQueue {
-
+public class LinkedListBasedStringQueue implements Queue {
 
     Node tail = null;
     Node head = null;
