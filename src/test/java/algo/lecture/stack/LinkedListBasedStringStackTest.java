@@ -6,11 +6,20 @@ import org.junit.jupiter.api.Test;
 public class LinkedListBasedStringStackTest {
 
     @Test
-    void checkIfStackIsEmpty(){
+    void checkIfStackIsNotEmpty(){
         LinkedListBasedStringStack stack = new LinkedListBasedStringStack();
         Assertions.assertEquals(true, stack.isEmpty());
         stack.push("First Value");
         Assertions.assertEquals(false, stack.isEmpty());
+    }
+
+    @Test
+    void checkIfStackIsEmpty(){
+        LinkedListBasedStringStack stack = new LinkedListBasedStringStack();
+        Assertions.assertEquals(true, stack.isEmpty());
+        stack.push("First Value");
+        stack.pop();
+        Assertions.assertEquals(true, stack.isEmpty());
     }
 
     @Test

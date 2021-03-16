@@ -17,4 +17,6 @@
 - ###Stack
   - Linked List based String Stack - Done
   - Fixed Capacity Array Stack - Done  
-  - Resizing Capacity Array Stack - Done  
+  - Resizing Capacity Array Stack - Done
+- ###Queue
+  - Linked List based String Queue - Done
