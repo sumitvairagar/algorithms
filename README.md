@@ -20,4 +20,5 @@
   - Resizing Capacity Array Stack - Done
 - ###Queue
   - Linked List based String Queue - Done
-  - Fixed Capacity Array Queue - Done  
+  - Fixed Capacity Array Queue - Done
+  - Resizing Capacity Array Queue - Done

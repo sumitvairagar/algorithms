@@ -3,13 +3,13 @@ package algo.lecture.queue;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.*;
 
-class FixedCapacityArrayQueueTest {
-
+class ResizingArrayQueueTest {
 
     @Test
     void checkIfQueueIsNotEmpty(){
-        FixedCapacityArrayQueue queue = new FixedCapacityArrayQueue(1);
+        ResizingArrayQueue queue = new ResizingArrayQueue();
         Assertions.assertEquals(true, queue.isEmpty());
         queue.enqueue("First Value");
         Assertions.assertEquals(false, queue.isEmpty());
@@ -17,7 +17,7 @@ class FixedCapacityArrayQueueTest {
 
     @Test
     void checkIfQueueIsEmpty(){
-        FixedCapacityArrayQueue queue = new FixedCapacityArrayQueue(1);
+        ResizingArrayQueue queue = new ResizingArrayQueue();
         Assertions.assertEquals(true, queue.isEmpty());
         queue.enqueue("First Value");
         queue.dequeue();
@@ -26,7 +26,7 @@ class FixedCapacityArrayQueueTest {
 
     @Test
     void testDeque(){
-        FixedCapacityArrayQueue queue = new FixedCapacityArrayQueue(3);
+        ResizingArrayQueue queue = new ResizingArrayQueue();
         queue.enqueue("First");
         queue.enqueue("Second");
         queue.enqueue("Third");
