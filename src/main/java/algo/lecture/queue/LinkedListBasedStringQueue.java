@@ -1,6 +1,6 @@
 package algo.lecture.queue;
 
-public class LinkedListBasedStringQueue implements Queue {
+public class LinkedListBasedStringQueue {
 
     Node tail = null;
     Node head = null;
@@ -13,6 +13,7 @@ public class LinkedListBasedStringQueue implements Queue {
     public boolean isEmpty(){
         return head == null;
     }
+
 
     public void enqueue(String value){
         Node oldLast = tail;

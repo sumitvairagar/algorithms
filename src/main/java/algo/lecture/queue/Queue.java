@@ -1,7 +1,7 @@
 package algo.lecture.queue;
 
-public interface Queue {
+public interface Queue<Item> {
      boolean isEmpty();
-     void enqueue(String value);
-     String dequeue();
+     void enqueue(Item value);
+     Item dequeue();
 }

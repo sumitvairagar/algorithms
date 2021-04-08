@@ -22,3 +22,4 @@
   - Linked List based String Queue - Done
   - Fixed Capacity Array Queue - Done
   - Resizing Capacity Array Queue - Done
+  - Generic Queue - Done

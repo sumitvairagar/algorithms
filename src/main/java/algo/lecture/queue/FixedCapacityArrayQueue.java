@@ -1,6 +1,6 @@
 package algo.lecture.queue;
 
-public class FixedCapacityArrayQueue implements Queue {
+public class FixedCapacityArrayQueue implements Queue<String> {
 
     private String data[];
     private int head = -1;

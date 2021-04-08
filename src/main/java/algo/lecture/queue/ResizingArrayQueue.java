@@ -1,6 +1,6 @@
 package algo.lecture.queue;
 
-public class ResizingArrayQueue implements Queue {
+public class ResizingArrayQueue implements Queue<String> {
 
     private final int INITIAL_SIZE = 1;
 
