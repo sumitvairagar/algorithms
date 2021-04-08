@@ -23,3 +23,6 @@
   - Fixed Capacity Array Queue - Done
   - Resizing Capacity Array Queue - Done
   - Generic Queue - Done
+- ###Sorting
+  - Selection Sort - Done
+  - Insertion Sort - Done
