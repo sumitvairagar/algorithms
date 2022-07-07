@@ -8,7 +8,8 @@
         - Buy and Sell Stock - Done
         - Rotate Array to right - Done
         - Contains Duplicate in Array - Done
-        - Palindrome Number - Done
+    - Palindrome Number - Done
+    - Roman String to Integer
     - ###String
         - Reverse a String - Done
 #24 Part Algorithm lecture
