@@ -11,6 +11,7 @@
     - Palindrome Number - Done
     - Roman String to Integer - Done
     - Longest Common Prefix - Done
+    - Valid Parentheses - Done
     - ###String
         - Reverse a String - Done
 #24 Part Algorithm lecture
