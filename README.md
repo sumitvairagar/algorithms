@@ -9,7 +9,8 @@
         - Rotate Array to right - Done
         - Contains Duplicate in Array - Done
     - Palindrome Number - Done
-    - Roman String to Integer
+    - Roman String to Integer - Done
+    - Longest Common Prefix - Done
     - ###String
         - Reverse a String - Done
 #24 Part Algorithm lecture
