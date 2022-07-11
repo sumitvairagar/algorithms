@@ -25,4 +25,10 @@ class ValidParenthesesTest {
         Assertions.assertEquals(true, validParentheses.isValid("[](){}"));
     }
 
+    @Test
+    public void shouldReturnFlaseeWhenSecondInValid(){
+        ValidParentheses validParentheses = new ValidParentheses();
+        Assertions.assertEquals(false, validParentheses.isValid("[)"));
+    }
+
 }
