@@ -12,6 +12,7 @@
     - Roman String to Integer - Done
     - Longest Common Prefix - Done
     - Valid Parentheses - Done
+    - Merge Two List - Not Done
     - ###String
         - Reverse a String - Done
 #24 Part Algorithm lecture
