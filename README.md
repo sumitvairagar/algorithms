@@ -8,6 +8,8 @@
         - Buy and Sell Stock - Done
         - Rotate Array to right - Done
         - Contains Duplicate in Array - Done
+        - Remove Duplicate from Sorted Array - Done
+        - Search Insert in Array- Done
     - Palindrome Number - Done
     - Roman String to Integer - Done
     - Longest Common Prefix - Done
