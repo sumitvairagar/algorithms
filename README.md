@@ -10,6 +10,7 @@
         - Contains Duplicate in Array - Done
         - Remove Duplicate from Sorted Array - Done
         - Search Insert in Array- Done
+        - Plus One - Done
     - Palindrome Number - Done
     - Roman String to Integer - Done
     - Longest Common Prefix - Done
