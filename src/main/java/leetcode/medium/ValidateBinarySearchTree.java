@@ -18,8 +18,7 @@ class TreeNode {
 
 public class ValidateBinarySearchTree {
     public boolean isValidBST(TreeNode root) {
-
-
+        boolean result = true;
         if(root == null) return true;
 
         TreeNode currentNode = root;
@@ -27,16 +26,13 @@ public class ValidateBinarySearchTree {
         TreeNode right = root.right;
 
         if(currentNode.left != null){
-            if(currentNode.left != null &&currentNode.val < currentNode.left.val) return false;
-            isValidBST(left);
+            if(currentNode.val <= currentNode.left.val) return false;
+            result = isValidBST(left);
         }
-        if(currentNode.right == null){
-            if(currentNode.right != null && currentNode.val > currentNode.right.val) return false;
-            isValidBST(right);
+        if(currentNode.right != null){
+            if(currentNode.val >= currentNode.right.val) return false;
+            result = isValidBST(right);
         }
-
-
-
-        return true;
+        return result;
     }
 }
