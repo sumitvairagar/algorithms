@@ -11,6 +11,8 @@
         - Remove Duplicate from Sorted Array - Done
         - Search Insert in Array- Done
         - Plus One - Done
+        - Pascal Triangle 1 - Done
+        - Pascal Triangle 2 - Done
     - Palindrome Number - Done
     - Roman String to Integer - Done
     - Longest Common Prefix - Done
